@@ -1,0 +1,81 @@
+[
+  {
+    "id": "r_spaghetti_bolognese",
+    "title": "Spaghetti Bolognese",
+    "description": "A classic Italian pasta with rich meat sauce.",
+    "imageUrl": "https://images.unsplash.com/photo-1523986371872-9d3ba2e2a389?q=80&w=1200&auto=format&fit=crop",
+    "cuisine": "Italian",
+    "category": "Dinner",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 45,
+    "servings": 4,
+    "ingredients": [
+      { "name": "Spaghetti", "quantity": "400g" },
+      { "name": "Ground beef", "quantity": "500g" },
+      { "name": "Tomato sauce", "quantity": "2 cups" },
+      { "name": "Onion", "quantity": "1, diced" },
+      { "name": "Garlic", "quantity": "3 cloves" }
+    ],
+    "steps": [
+      "Cook spaghetti until al dente.",
+      "Sauté onion and garlic, add beef and brown.",
+      "Add tomato sauce, simmer 20-30 mins.",
+      "Serve sauce over pasta."
+    ],
+    "createdBy": "u_demo",
+    "createdAt": "2024-06-01T10:00:00.000Z"
+  },
+  {
+    "id": "r_pancakes",
+    "title": "Fluffy Pancakes",
+    "description": "Quick, fluffy pancakes perfect for breakfast.",
+    "imageUrl": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?q=80&w=1200&auto=format&fit=crop",
+    "cuisine": "American",
+    "category": "Breakfast",
+    "difficulty": "Easy",
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 3,
+    "ingredients": [
+      { "name": "Flour", "quantity": "1 cup" },
+      { "name": "Milk", "quantity": "1 cup" },
+      { "name": "Egg", "quantity": "1" },
+      { "name": "Baking powder", "quantity": "2 tsp" },
+      { "name": "Sugar", "quantity": "2 tbsp" }
+    ],
+    "steps": [
+      "Combine dry ingredients.",
+      "Whisk in milk and egg.",
+      "Cook on greased pan until bubbles form, flip and cook."
+    ],
+    "createdBy": "u_demo",
+    "createdAt": "2024-05-12T09:00:00.000Z"
+  },
+  {
+    "id": "r_chicken_curry",
+    "title": "Chicken Curry",
+    "description": "A flavorful Indian chicken curry.",
+    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop",
+    "cuisine": "Indian",
+    "category": "Dinner",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 35,
+    "servings": 4,
+    "ingredients": [
+      { "name": "Chicken", "quantity": "600g" },
+      { "name": "Onion", "quantity": "2, sliced" },
+      { "name": "Tomato", "quantity": "2, chopped" },
+      { "name": "Curry powder", "quantity": "2 tbsp" },
+      { "name": "Garlic & Ginger", "quantity": "1 tbsp each" }
+    ],
+    "steps": [
+      "Sauté onions, garlic, and ginger.",
+      "Add chicken and brown.",
+      "Add tomatoes and curry powder, simmer until cooked."
+    ],
+    "createdBy": "u_demo",
+    "createdAt": "2024-04-20T12:00:00.000Z"
+  }
+]

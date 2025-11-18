@@ -1,0 +1,44 @@
+/* Legacy UI Styles ported */
+:root {
+    --primary-yellow: #FFD700;
+    --text-dark: #333333;
+    --text-light: #ffffff;
+    --transition-speed: 0.3s;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--text-dark); overflow-x: hidden; background-color: #f9f9f9; min-height: 100vh; }
+.background-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--primary-yellow); z-index: -1; transition: background 0.1s ease; }
+header { padding: 1.5rem 3rem; position: relative; z-index: 10; }
+nav { display: flex; justify-content: space-between; align-items: center; }
+nav ul { display: flex; list-style: none; gap: 2rem; }
+nav a { text-decoration: none; color: var(--text-dark); font-weight: 500; font-size: 1.1rem; transition: color var(--transition-speed) ease; position: relative; }
+nav a::after { content: ''; position: absolute; bottom: -5px; left: 0; width: 0; height: 2px; background-color: var(--text-dark); transition: width var(--transition-speed) ease; }
+nav a:hover::after, nav a.active::after { width: 100%; }
+.account { font-size: 1.2rem; cursor: pointer; }
+main { display: flex; min-height: calc(100vh - 80px); padding: 0 3rem; align-items: center; }
+.content { flex: 1; max-width: 500px; padding: 2rem 0; }
+.food-carousel { position: relative; width: 50%; height: 70vh; margin-left: 5%; perspective: 1000px; }
+.carousel-container { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; }
+.main-dish { position: absolute; width: clamp(220px, 28vw, 380px); height: clamp(220px, 28vw, 380px); border-radius: 50%; overflow: hidden; left: 50%; top: 65%; transform: translate(-50%, -50%); box-shadow: 0 25px 60px rgba(0,0,0,0.15); background: #fff; }
+.main-dish img { width: 100%; height: 100%; object-fit: cover; }
+.thumb { position: absolute; border-radius: 50%; overflow: hidden; background: #fff; box-shadow: 0 12px 25px rgba(0,0,0,0.15); transition: transform 0.35s ease, box-shadow 0.35s ease; }
+.thumb img { width: 100%; height: 100%; object-fit: cover; }
+.thumb:hover { transform: translate(-50%, -50%) scale(1.08) !important; box-shadow: 0 16px 35px rgba(0,0,0,0.2); }
+.arc { position: absolute; inset: 0; pointer-events: none; }
+.arc path { stroke: rgba(255, 199, 0, 0.8); stroke-width: 5; stroke-dasharray: 10 12; stroke-linecap: round; fill: none; }
+@media (max-width: 1024px) { main { flex-direction: column; padding: 2rem 1.5rem; text-align: center; } .content { max-width: 100%; margin-bottom: 3rem; } .food-carousel { width: 100%; height: 55vh; margin-left: 0; } }
+@media (max-width: 768px) { nav ul { gap: 1rem; } }
+.assistant { position: relative; z-index: 5; padding: 1rem 0 2rem; }
+.assistant-header { display: flex; align-items: center; gap: 1rem; padding: 0 3rem 1rem; }
+.back-btn { border: none; background: #fff; padding: 0.5rem 0.9rem; border-radius: 999px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer; }
+.chat-container { width: min(950px, 92%); margin: 0 auto; background: rgba(255,255,255,0.9); border-radius: 16px; box-shadow: 0 20px 60px rgba(0,0,0,0.12); display: grid; grid-template-rows: 1fr auto; height: calc(80vh); overflow: hidden; }
+.messages { padding: 1rem 1.25rem; overflow-y: auto; }
+.message { display: flex; margin: 0.4rem 0; }
+.message.user { justify-content: flex-end; }
+.message.bot { justify-content: flex-start; }
+.bubble { max-width: 75%; padding: 0.7rem 0.9rem; border-radius: 14px; line-height: 1.4; }
+.message.user .bubble { background: #111; color: #fff; border-bottom-right-radius: 4px; }
+.message.bot .bubble { background: #f2f2f2; color: #222; border-bottom-left-radius: 4px; }
+.composer { display: flex; gap: 0.6rem; padding: 0.75rem; border-top: 1px solid rgba(0,0,0,0.06); background: #fff; }
+.composer textarea { resize: none; flex: 1; border: 1px solid rgba(0,0,0,0.12); border-radius: 12px; padding: 0.7rem 0.9rem; font-family: inherit; outline: none; }
+.send-btn { background: #111; color: #fff; border: none; border-radius: 12px; padding: 0 1.1rem; cursor: pointer; }
