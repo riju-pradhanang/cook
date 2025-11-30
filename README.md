@@ -7,7 +7,7 @@ It simulates a real full-stack app using **LocalStorage** and a custom **Fake AP
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-**Live Demo**: (https://cook-eveg8athi-kanchanyadav0916-gmailcoms-projects.vercel.app/)
+**Live Demo**: [CookBook](https://cook-book-fs.vercel.app/)
 
 ### Video Walkthrough & Code Explanation
 
