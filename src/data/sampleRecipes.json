@@ -11,11 +11,26 @@
     "cookTime": 45,
     "servings": 4,
     "ingredients": [
-      { "name": "Spaghetti", "quantity": "400g" },
-      { "name": "Ground beef", "quantity": "500g" },
-      { "name": "Tomato sauce", "quantity": "2 cups" },
-      { "name": "Onion", "quantity": "1, diced" },
-      { "name": "Garlic", "quantity": "3 cloves" }
+      {
+        "name": "Spaghetti",
+        "quantity": "400g"
+      },
+      {
+        "name": "Ground beef",
+        "quantity": "500g"
+      },
+      {
+        "name": "Tomato sauce",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Onion",
+        "quantity": "1, diced"
+      },
+      {
+        "name": "Garlic",
+        "quantity": "3 cloves"
+      }
     ],
     "steps": [
       "Cook spaghetti until al dente.",
@@ -38,11 +53,26 @@
     "cookTime": 15,
     "servings": 3,
     "ingredients": [
-      { "name": "Flour", "quantity": "1 cup" },
-      { "name": "Milk", "quantity": "1 cup" },
-      { "name": "Egg", "quantity": "1" },
-      { "name": "Baking powder", "quantity": "2 tsp" },
-      { "name": "Sugar", "quantity": "2 tbsp" }
+      {
+        "name": "Flour",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Milk",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Egg",
+        "quantity": "1"
+      },
+      {
+        "name": "Baking powder",
+        "quantity": "2 tsp"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "2 tbsp"
+      }
     ],
     "steps": [
       "Combine dry ingredients.",
@@ -64,11 +94,26 @@
     "cookTime": 35,
     "servings": 4,
     "ingredients": [
-      { "name": "Chicken", "quantity": "600g" },
-      { "name": "Onion", "quantity": "2, sliced" },
-      { "name": "Tomato", "quantity": "2, chopped" },
-      { "name": "Curry powder", "quantity": "2 tbsp" },
-      { "name": "Garlic & Ginger", "quantity": "1 tbsp each" }
+      {
+        "name": "Chicken",
+        "quantity": "600g"
+      },
+      {
+        "name": "Onion",
+        "quantity": "2, sliced"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "2, chopped"
+      },
+      {
+        "name": "Curry powder",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Garlic & Ginger",
+        "quantity": "1 tbsp each"
+      }
     ],
     "steps": [
       "Sauté onions, garlic, and ginger.",
@@ -81,7 +126,7 @@
   {
     "id": "r_creamy_chicken_pesto_pasta",
     "title": "Creamy Chicken Pesto Pasta",
-    "description": "Creamy Chicken Pesto Pasta is a rich and flavorful dish made with tender chicken, smooth pesto cream sauce, and perfectly cooked pasta. It’s quick, comforting, and packed with delicious garlic-basil aroma perfect for lunch or dinner.",
+    "description": "Creamy Chicken Pesto Pasta is a rich and flavorful dish made with tender chicken, smooth pesto cream sauce, and perfectly cooked pasta. It's quick, comforting, and packed with delicious garlic-basil aroma perfect for lunch or dinner.",
     "imageUrl": "https://novayum.com/wp-content/uploads/2024/11/Creamy-Chicken-Pesto-Pasta-Recipes-847x1024.png",
     "cuisine": "Italian",
     "category": "Main Course",
@@ -90,18 +135,54 @@
     "cookTime": 20,
     "servings": 3,
     "ingredients": [
-      { "name": "Pasta (penne, fusilli, or spaghetti)", "quantity": "200g" },
-      { "name": "Boneless chicken (cut into small pieces)", "quantity": "250g" },
-      { "name": "Olive oil or butter", "quantity": "2 tbsp" },
-      { "name": "Heavy cream / fresh cream", "quantity": "1 cup" },
-      { "name": "Pesto sauce (basil pesto)", "quantity": "2-3 tbsp" },
-      { "name": "Garlic cloves (minced)", "quantity": "4-5" },
-      { "name": "Grated parmesan or processed cheese", "quantity": "1/2 cup" },
-      { "name": "Salt & pepper", "quantity": "to taste" },
-      { "name": "Chilli flakes (optional)", "quantity": "1/2 tsp" },
-      { "name": "Mixed herbs / oregano", "quantity": "1/2 tsp" },
-      { "name": "Cherry tomatoes (optional)", "quantity": "A handful" },
-      { "name": "Fresh basil (for garnish)", "quantity": "as needed" }
+      {
+        "name": "Pasta (penne, fusilli, or spaghetti)",
+        "quantity": "200g"
+      },
+      {
+        "name": "Boneless chicken (cut into small pieces)",
+        "quantity": "250g"
+      },
+      {
+        "name": "Olive oil or butter",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Heavy cream / fresh cream",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Pesto sauce (basil pesto)",
+        "quantity": "2-3 tbsp"
+      },
+      {
+        "name": "Garlic cloves (minced)",
+        "quantity": "4-5"
+      },
+      {
+        "name": "Grated parmesan or processed cheese",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Salt & pepper",
+        "quantity": "to taste"
+      },
+      {
+        "name": "Chilli flakes (optional)",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "name": "Mixed herbs / oregano",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "name": "Cherry tomatoes (optional)",
+        "quantity": "A handful"
+      },
+      {
+        "name": "Fresh basil (for garnish)",
+        "quantity": "as needed"
+      }
     ],
     "steps": [
       "Boil pasta in salted water until al dente. Drain and keep aside, reserving 1/2 cup pasta water.",
@@ -117,5 +198,472 @@
     ],
     "createdBy": "u_demo",
     "createdAt": "2024-06-15T10:00:00.000Z"
+  },
+  {
+    "id": "r_beef_tacos",
+    "title": "Beef Tacos",
+    "description": "Authentic Mexican tacos with seasoned ground beef, fresh toppings, and crispy shells.",
+    "imageUrl": "https://www.dinneratthezoo.com/wp-content/uploads/2018/05/ground-beef-tacos-3.jpg",
+    "cuisine": "Mexican",
+    "category": "Lunch",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "quantity": "500g"
+      },
+      {
+        "name": "Taco shells",
+        "quantity": "8"
+      },
+      {
+        "name": "Taco seasoning",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Lettuce, shredded",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Tomatoes, diced",
+        "quantity": "2"
+      },
+      {
+        "name": "Cheddar cheese, shredded",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Sour cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Salsa",
+        "quantity": "1/2 cup"
+      }
+    ],
+    "steps": [
+      "Brown ground beef in a skillet over medium heat.",
+      "Add taco seasoning and water, simmer for 5 minutes.",
+      "Warm taco shells according to package directions.",
+      "Fill shells with beef and top with lettuce, tomatoes, cheese, sour cream, and salsa."
+    ],
+    "createdBy": "u_demo",
+    "createdAt": "2024-05-20T14:00:00.000Z"
+  },
+  {
+    "id": "r_chicken_fried_rice",
+    "title": "Chicken Fried Rice",
+    "description": "Classic Chinese fried rice with chicken, vegetables, and savory soy sauce.",
+    "imageUrl": "https://www.recipetineats.com/wp-content/uploads/2020/09/Chicken-Fried-Rice_9.jpg",
+    "cuisine": "Chinese",
+    "category": "Dinner",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Cooked rice (day-old)",
+        "quantity": "4 cups"
+      },
+      {
+        "name": "Chicken breast, diced",
+        "quantity": "300g"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "name": "Mixed vegetables (peas, carrots, corn)",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": "3 tbsp"
+      },
+      {
+        "name": "Garlic, minced",
+        "quantity": "3 cloves"
+      },
+      {
+        "name": "Green onions, chopped",
+        "quantity": "3"
+      },
+      {
+        "name": "Vegetable oil",
+        "quantity": "3 tbsp"
+      }
+    ],
+    "steps": [
+      "Heat oil in a wok, scramble eggs and set aside.",
+      "Cook chicken until done, set aside.",
+      "Stir-fry garlic and vegetables for 2-3 minutes.",
+      "Add rice, breaking up clumps, stir-fry for 3-4 minutes.",
+      "Add chicken, eggs, soy sauce, and green onions. Mix well and serve hot."
+    ],
+    "createdBy": "u_demo",
+    "createdAt": "2024-04-10T18:00:00.000Z"
+  },
+  {
+    "id": "r_miso_ramen",
+    "title": "Miso Ramen",
+    "description": "Comforting Japanese noodle soup with rich miso broth and tender toppings.",
+    "imageUrl": "https://www.justonecookbook.com/wp-content/uploads/2023/04/Spicy-Miso-Ramen-8055-I.jpg",
+    "cuisine": "Japanese",
+    "category": "Lunch",
+    "difficulty": "Medium",
+    "prepTime": 20,
+    "cookTime": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Ramen noodles",
+        "quantity": "2 packs"
+      },
+      {
+        "name": "Chicken or vegetable broth",
+        "quantity": "4 cups"
+      },
+      {
+        "name": "Miso paste",
+        "quantity": "3 tbsp"
+      },
+      {
+        "name": "Soft-boiled eggs",
+        "quantity": "2"
+      },
+      {
+        "name": "Pork belly or chicken",
+        "quantity": "200g"
+      },
+      {
+        "name": "Green onions, sliced",
+        "quantity": "2"
+      },
+      {
+        "name": "Nori sheets",
+        "quantity": "2"
+      },
+      {
+        "name": "Corn kernels",
+        "quantity": "1/4 cup"
+      },
+      {
+        "name": "Sesame oil",
+        "quantity": "1 tsp"
+      }
+    ],
+    "steps": [
+      "Heat broth and whisk in miso paste until dissolved.",
+      "Cook noodles according to package instructions, drain.",
+      "Cook pork or chicken and slice.",
+      "Divide noodles into bowls, pour hot broth over them.",
+      "Top with eggs, meat, green onions, nori, corn, and drizzle with sesame oil."
+    ],
+    "createdBy": "u_demo",
+    "createdAt": "2024-03-15T12:30:00.000Z"
+  },
+  {
+    "id": "r_pad_thai",
+    "title": "Pad Thai",
+    "description": "Thailand's famous stir-fried noodles with shrimp, peanuts, and tangy tamarind sauce.",
+    "imageUrl": "https://hot-thai-kitchen.com/wp-content/uploads/2022/03/pad-thai-blog.jpg",
+    "cuisine": "Thai",
+    "category": "Dinner",
+    "difficulty": "Medium",
+    "prepTime": 25,
+    "cookTime": 15,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Rice noodles",
+        "quantity": "200g"
+      },
+      {
+        "name": "Shrimp, peeled",
+        "quantity": "250g"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "name": "Bean sprouts",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Tamarind paste",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Fish sauce",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Brown sugar",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Peanuts, crushed",
+        "quantity": "1/4 cup"
+      },
+      {
+        "name": "Lime wedges",
+        "quantity": "for serving"
+      },
+      {
+        "name": "Green onions",
+        "quantity": "2, chopped"
+      }
+    ],
+    "steps": [
+      "Soak rice noodles in warm water for 30 minutes, drain.",
+      "Mix tamarind paste, fish sauce, and sugar for the sauce.",
+      "Heat oil in wok, scramble eggs and set aside.",
+      "Cook shrimp until pink, add noodles and sauce, stir-fry for 3-4 minutes.",
+      "Add bean sprouts, eggs, and green onions. Toss well.",
+      "Serve topped with crushed peanuts and lime wedges."
+    ],
+    "createdBy": "u_demo",
+    "createdAt": "2024-02-28T19:00:00.000Z"
+  },
+  {
+    "id": "r_french_croissants",
+    "title": "French Croissants",
+    "description": "Buttery, flaky French pastries perfect for breakfast or brunch.",
+    "imageUrl": "https://www.kingarthurbaking.com/sites/default/files/2020-03/croissants-0175.jpg",
+    "cuisine": "French",
+    "category": "Breakfast",
+    "difficulty": "Hard",
+    "prepTime": 180,
+    "cookTime": 20,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "quantity": "4 cups"
+      },
+      {
+        "name": "Butter, cold",
+        "quantity": "250g"
+      },
+      {
+        "name": "Milk, warm",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Active dry yeast",
+        "quantity": "2 tsp"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "1/4 cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Egg",
+        "quantity": "1, for egg wash"
+      }
+    ],
+    "steps": [
+      "Dissolve yeast in warm milk with sugar, let stand 5 minutes.",
+      "Mix flour and salt, add yeast mixture, knead into dough. Refrigerate 1 hour.",
+      "Roll dough into rectangle, place butter in center, fold and roll multiple times (laminating).",
+      "Refrigerate between folds. Final roll should be 1/4 inch thick.",
+      "Cut into triangles, roll from wide end to point to form croissants.",
+      "Let rise 2 hours, brush with egg wash, bake at 375°F for 15-20 minutes until golden."
+    ],
+    "createdBy": "u_demo",
+    "createdAt": "2024-01-10T08:00:00.000Z"
+  },
+  {
+    "id": "r_greek_salad",
+    "title": "Greek Salad",
+    "description": "Fresh Mediterranean salad with cucumbers, tomatoes, olives, and feta cheese.",
+    "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2020/03/greek-salad-recipe-1.jpg",
+    "cuisine": "Mediterranean",
+    "category": "Appetizer",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Cucumbers, diced",
+        "quantity": "2"
+      },
+      {
+        "name": "Tomatoes, diced",
+        "quantity": "3"
+      },
+      {
+        "name": "Red onion, sliced",
+        "quantity": "1/2"
+      },
+      {
+        "name": "Kalamata olives",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Feta cheese, crumbled",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Olive oil",
+        "quantity": "1/4 cup"
+      },
+      {
+        "name": "Red wine vinegar",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Oregano",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Salt & pepper",
+        "quantity": "to taste"
+      }
+    ],
+    "steps": [
+      "Combine cucumbers, tomatoes, onion, and olives in a large bowl.",
+      "Whisk together olive oil, vinegar, oregano, salt, and pepper.",
+      "Pour dressing over vegetables and toss gently.",
+      "Top with crumbled feta cheese and serve immediately."
+    ],
+    "createdBy": "u_demo",
+    "createdAt": "2024-05-05T13:00:00.000Z"
+  },
+  {
+    "id": "r_bibimbap",
+    "title": "Bibimbap",
+    "description": "Korean mixed rice bowl with vegetables, beef, and gochujang sauce.",
+    "imageUrl": "https://www.koreanbapsang.com/wp-content/uploads/2019/08/DSC_0181-e1565184563265.jpg",
+    "cuisine": "Korean",
+    "category": "Lunch",
+    "difficulty": "Medium",
+    "prepTime": 30,
+    "cookTime": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Cooked rice",
+        "quantity": "4 cups"
+      },
+      {
+        "name": "Beef, thinly sliced",
+        "quantity": "300g"
+      },
+      {
+        "name": "Spinach",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Bean sprouts",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Carrots, julienned",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Zucchini, julienned",
+        "quantity": "1"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "4"
+      },
+      {
+        "name": "Gochujang (Korean chili paste)",
+        "quantity": "4 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "quantity": "2 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": "2 tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate beef in soy sauce and sesame oil, cook until done.",
+      "Blanch spinach and bean sprouts separately, squeeze out water.",
+      "Sauté carrots and zucchini separately until tender.",
+      "Fry eggs sunny-side up.",
+      "Divide rice into bowls, arrange vegetables and beef on top.",
+      "Place fried egg on top, serve with gochujang on the side. Mix before eating."
+    ],
+    "createdBy": "u_demo",
+    "createdAt": "2024-03-22T12:00:00.000Z"
+  },
+  {
+    "id": "r_chocolate_brownies",
+    "title": "Chocolate Brownies",
+    "description": "Rich, fudgy chocolate brownies that are perfect for dessert or a sweet snack.",
+    "imageUrl": "https://www.inspiredtaste.net/wp-content/uploads/2016/07/Easy-Brownie-Recipe-1-1200.jpg",
+    "cuisine": "American",
+    "category": "Dessert",
+    "difficulty": "Easy",
+    "prepTime": 15,
+    "cookTime": 30,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "Butter",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "name": "Vanilla extract",
+        "quantity": "1 tsp"
+      },
+      {
+        "name": "Cocoa powder",
+        "quantity": "1/3 cup"
+      },
+      {
+        "name": "All-purpose flour",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1/4 tsp"
+      },
+      {
+        "name": "Baking powder",
+        "quantity": "1/4 tsp"
+      },
+      {
+        "name": "Chocolate chips (optional)",
+        "quantity": "1/2 cup"
+      }
+    ],
+    "steps": [
+      "Preheat oven to 350°F (175°C). Grease a 9x9 inch baking pan.",
+      "Melt butter, stir in sugar, eggs, and vanilla.",
+      "Beat in cocoa, flour, salt, and baking powder.",
+      "Fold in chocolate chips if using.",
+      "Spread batter into prepared pan.",
+      "Bake for 25-30 minutes. Do not overbake.",
+      "Cool completely before cutting into squares."
+    ],
+    "createdBy": "u_demo",
+    "createdAt": "2024-04-18T16:00:00.000Z"
   }
 ]
