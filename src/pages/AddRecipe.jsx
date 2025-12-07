@@ -17,16 +17,90 @@ export default function AddRecipe() {
   const [form, setForm] = useState({ title: '', description: '', imageUrl: '', cuisine: '', category: '', difficulty: '', prepTime: 0, cookTime: 0, servings: 1, ingredients: [], steps: [] })
   const [ingredient, setIngredient] = useState({ name: '', quantity: '' })
   const [step, setStep] = useState('')
+  const [imageError, setImageError] = useState('')
+  const [imageLoadError, setImageLoadError] = useState(false)
+
   function addIngredient() { if (!ingredient.name) return; setForm(f => ({ ...f, ingredients: [...f.ingredients, ingredient] })); setIngredient({ name: '', quantity: '' }) }
   function addStep() { if (!step) return; setForm(f => ({ ...f, steps: [...f.steps, step] })); setStep('') }
-  async function submit(e) { e.preventDefault(); const r = await create(form); toast.success('Recipe created'); nav(`/recipes/${r.id}`) }
+
+  function validateImageUrl(url) {
+    if (!url) return 'Image URL is required'
+    try {
+      new URL(url)
+    } catch {
+      return 'Please enter a valid URL'
+    }
+    // Check if it's an image URL (basic check)
+    const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg']
+    const hasImageExtension = imageExtensions.some(ext => url.toLowerCase().includes(ext))
+    const isImageHost = url.includes('unsplash.com') || url.includes('images.') || url.includes('imgur') || url.includes('i.imgur') || url.includes('googleusercontent.com') || url.includes('gstatic.com') || url.includes('google.com')
+    if (!hasImageExtension && !isImageHost) {
+      return 'Please enter a valid image URL'
+    }
+    return ''
+  }
+
+  function handleImageUrlChange(e) {
+    const url = e.target.value
+    setForm(f => ({ ...f, imageUrl: url }))
+    setImageLoadError(false)
+    const error = validateImageUrl(url)
+    setImageError(error)
+  }
+
+  async function submit(e) {
+    e.preventDefault()
+    const error = validateImageUrl(form.imageUrl)
+    if (error) {
+      toast.error(error)
+      return
+    }
+    if (form.ingredients.length === 0) {
+      toast.error('Please add at least one ingredient')
+      return
+    }
+    if (form.steps.length === 0) {
+      toast.error('Please add at least one step')
+      return
+    }
+    try {
+      const r = await create(form)
+      toast.success('Recipe created')
+      nav(`/recipes/${r.id}`)
+    } catch (err) {
+      toast.error('Failed to create recipe')
+    }
+  }
   return (
     <div className="mx-auto max-w-2xl">
       <h1 className="mb-4 text-xl font-semibold">Add Recipe</h1>
       <form onSubmit={submit} className="space-y-4">
         <Input placeholder="Title" value={form.title} onChange={e => setForm(f => ({ ...f, title: e.target.value }))} required />
         <TextArea placeholder="Description" value={form.description} onChange={e => setForm(f => ({ ...f, description: e.target.value }))} required />
-        <Input placeholder="Image URL" value={form.imageUrl} onChange={e => setForm(f => ({ ...f, imageUrl: e.target.value }))} required />
+        <div>
+          <Input
+            placeholder="Image URL"
+            value={form.imageUrl}
+            onChange={handleImageUrlChange}
+            required
+          />
+          {(imageError || imageLoadError) && (
+            <p className="mt-1 text-sm text-red-600">
+              {imageError || 'Image failed to load. Please check the URL.'}
+            </p>
+          )}
+          {form.imageUrl && !imageError && !imageLoadError && (
+            <div className="mt-2">
+              <img
+                src={form.imageUrl}
+                alt="Preview"
+                className="h-32 w-full rounded object-cover"
+                onError={() => setImageLoadError(true)}
+                onLoad={() => setImageLoadError(false)}
+              />
+            </div>
+          )}
+        </div>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
           <Select value={form.cuisine} onChange={e => setForm(f => ({ ...f, cuisine: e.target.value }))}>
             <option value="">Select Cuisine</option>
