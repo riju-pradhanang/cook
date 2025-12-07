@@ -1,0 +1,14 @@
+# Ignore line ending conversion in node_modules
+node_modules/** -text
+
+# Ignore line ending conversion in dist (build output)
+dist/** -text
+
+# Treat all JS/JSX/CSS/HTML files normally
+*.js text=auto
+*.jsx text=auto
+*.css text=auto
+*.html text=auto
+
+# Treat JSON files normally
+*.json text=auto
